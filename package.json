@@ -15,7 +15,11 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "@aws-cdk/core": "latest",
+    "@aws-cdk/aws-apigateway": "^1.131.0",
+    "@aws-cdk/aws-elasticloadbalancingv2": "^1.131.0",
+    "@aws-cdk/aws-iam": "^1.131.0",
+    "@aws-cdk/aws-logs": "^1.131.0",
+    "@aws-cdk/core": "^1.131.0",
     "aws-cdk": "latest"
   },
   "devDependencies": {
